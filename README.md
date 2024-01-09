@@ -7,10 +7,10 @@ The program's task is to extract data regarding the friction coefficient, then a
 To verify the accuracy of the performed operations, the program saves the results of the conducted operations in the form of a consolidated line chart in a .png file at the end.
 
 ## Steps Required to Conduct the Analysis
-Run the .py script friction_analyzer.py in a Python interpreter.
-Indicate the path to the folder containing the files for analysis.
-Select the appropriate data range for calculating the moving average.
-To avoid errors related to attempting to process other files, ensure that only files exported by the device's 
+- Run the .py script friction_analyzer.py in a Python interpreter.
+- Indicate the path to the folder containing the files for analysis.
+- Select the appropriate data range for calculating the moving average.
+- To avoid errors related to attempting to process other files, ensure that only files exported by the device's 
 measurement system and intended for analysis are located in the specified folder.
 
 ## Error Handling
@@ -42,10 +42,10 @@ Zadaniem programu jest ekstrakcja danych dotyczących współczynnika tarcia, na
 Aby zweryfikować dokładność wykonanych operacji, program zapisuje wyniki przeprowadzonych operacji w postaci skonsolidowanego wykresu liniowego w pliku .png na końcu.
 
 ## Kroki Wymagane do Przeprowadzenia Analizy
-Uruchom skrypt .py friction_analyzer.py w interpreterze Pythona.
-Wskaż ścieżkę do folderu zawierającego pliki do analizy.
-Wybierz odpowiedni zakres danych do obliczenia średniej ruchomej.
-Aby uniknąć błędów związanych z próbą przetwarzania innych plików, upewnij się, że w określonym folderze znajdują się tylko pliki wyeksportowane przez system pomiarowy urządzenia i przeznaczone do analizy.
+- Uruchom skrypt .py friction_analyzer.py w interpreterze Pythona.
+- Wskaż ścieżkę do folderu zawierającego pliki do analizy.
+- Wybierz odpowiedni zakres danych do obliczenia średniej ruchomej.
+- Aby uniknąć błędów związanych z próbą przetwarzania innych plików, upewnij się, że w określonym folderze znajdują się tylko pliki wyeksportowane przez system pomiarowy urządzenia i przeznaczone do analizy.
 
 ## Obsługa Błędów
 Upewnij się, że podajesz ścieżkę dostępu do katalogu bez użycia cudzysłowów.
