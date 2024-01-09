@@ -25,7 +25,7 @@ if os.path.isdir(normalized_path):
 
             try:
                 # Loading text as a DataFrame
-                df = pd.read_csv(file_path, delimiter="\t", skiprows=62, header=0, decimal=",")
+                df = pd.read_csv(file_path, delimiter="\t", skiprows=56, header=0, decimal=",")
                 df['µ'] = df['µ'].astype(float)
 
                 averages = df['µ'].groupby(df.index // user_number).mean()  # set grouping value
